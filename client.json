@@ -1,0 +1,8 @@
+{
+  "client_id": "https://aqanetics.github.io/aqa-ai-oauth-client/client.json",
+  "client_name": "AQA AI",
+  "redirect_uris": ["http://localhost:18000/api/sign-in/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
